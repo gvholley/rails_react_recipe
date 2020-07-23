@@ -50,7 +50,7 @@ render() {
     );
 
 return (
-      <>
+      <React.Fragment>
         <section className="jumbotron jumbotron-fluid text-center">
           <div className="container py-5">
             <h1 className="display-4">Recipes for every occasion</h1>
@@ -76,7 +76,7 @@ return (
             </Link>
           </main>
         </div>
-      </>
+      </React.Fragment>
     );
   }
 
